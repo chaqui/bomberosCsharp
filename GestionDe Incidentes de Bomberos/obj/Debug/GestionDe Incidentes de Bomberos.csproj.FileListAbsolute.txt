@@ -1,0 +1,1 @@
+c:\users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\bin\Debug\GestionDe Incidentes de Bomberos.exe.config
