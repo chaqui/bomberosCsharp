@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GestionDe_Incidentes_de_Bomberos.informes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +26,14 @@ namespace GestionDe_Incidentes_de_Bomberos.vista
         private void label6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btGenerarInfome_Click(object sender, EventArgs e)
+        {
+            DateTime fechaInicio = Convert.ToDateTime(monthFechaIncialIncidente.SelectionEnd.ToShortDateString());
+            DateTime fechaFinal = Convert.ToDateTime(monthFechaFinalIncidente.SelectionEnd.ToShortDateString());
+            Accidente accidente = new Accidente();
+            accidente.crearInforme(1, fechaInicio, fechaFinal);
         }
     }
 }

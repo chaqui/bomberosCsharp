@@ -1,1 +1,13 @@
 c:\users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\bin\Debug\GestionDe Incidentes de Bomberos.exe.config
+C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\bin\Debug\GestionDe Incidentes de Bomberos.exe
+C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\bin\Debug\GestionDe Incidentes de Bomberos.pdb
+C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\bin\Debug\itextsharp.dll
+C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\bin\Debug\itextsharp.xml
+C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\obj\Debug\GestionDe Incidentes de Bomberos.csprojResolveAssemblyReference.cache
+C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\obj\Debug\GestionDe_Incidentes_de_Bomberos.Form1.resources
+C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\obj\Debug\GestionDe_Incidentes_de_Bomberos.Properties.Resources.resources
+C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\obj\Debug\GestionDe_Incidentes_de_Bomberos.vista.GeneradorDeInformes.resources
+C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\obj\Debug\GestionDe_Incidentes_de_Bomberos.vista.IngresarInformacion.resources
+C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\obj\Debug\GestionDe Incidentes de Bomberos.csproj.GenerateResource.Cache
+C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\obj\Debug\GestionDe Incidentes de Bomberos.exe
+C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\obj\Debug\GestionDe Incidentes de Bomberos.pdb

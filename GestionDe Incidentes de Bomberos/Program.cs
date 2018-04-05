@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GestionDe_Incidentes_de_Bomberos.vista;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;

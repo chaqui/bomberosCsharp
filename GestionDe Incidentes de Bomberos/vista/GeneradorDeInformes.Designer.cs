@@ -32,17 +32,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.cbTipoInforme = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.fechaInicialGeneral = new System.Windows.Forms.MonthCalendar();
             this.fechaFinalGeneral = new System.Windows.Forms.MonthCalendar();
             this.label3 = new System.Windows.Forms.Label();
+            this.fechaInicialGeneral = new System.Windows.Forms.MonthCalendar();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cbTipoIncidente = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.monthFechaFinalIncidente = new System.Windows.Forms.MonthCalendar();
             this.label4 = new System.Windows.Forms.Label();
             this.monthFechaIncialIncidente = new System.Windows.Forms.MonthCalendar();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.cbTipoIncidente = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -55,6 +55,7 @@
             this.btGenerarInfome.TabIndex = 0;
             this.btGenerarInfome.Text = "Generar Informe ";
             this.btGenerarInfome.UseVisualStyleBackColor = true;
+            this.btGenerarInfome.Click += new System.EventHandler(this.btGenerarInfome_Click);
             // 
             // label1
             // 
@@ -86,21 +87,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "General ";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(18, 32);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Fecha Inicial";
-            // 
-            // fechaInicialGeneral
-            // 
-            this.fechaInicialGeneral.Location = new System.Drawing.Point(90, 32);
-            this.fechaInicialGeneral.Name = "fechaInicialGeneral";
-            this.fechaInicialGeneral.TabIndex = 1;
-            // 
             // fechaFinalGeneral
             // 
             this.fechaFinalGeneral.Location = new System.Drawing.Point(443, 32);
@@ -116,6 +102,21 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Fecha Final";
             // 
+            // fechaInicialGeneral
+            // 
+            this.fechaInicialGeneral.Location = new System.Drawing.Point(90, 32);
+            this.fechaInicialGeneral.Name = "fechaInicialGeneral";
+            this.fechaInicialGeneral.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(18, 32);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Fecha Inicial";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.cbTipoIncidente);
@@ -130,6 +131,25 @@
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Incidente";
+            // 
+            // cbTipoIncidente
+            // 
+            this.cbTipoIncidente.FormattingEnabled = true;
+            this.cbTipoIncidente.Location = new System.Drawing.Point(111, 31);
+            this.cbTipoIncidente.Name = "cbTipoIncidente";
+            this.cbTipoIncidente.Size = new System.Drawing.Size(121, 21);
+            this.cbTipoIncidente.TabIndex = 5;
+            this.cbTipoIncidente.SelectedIndexChanged += new System.EventHandler(this.cbTipoIncidente_SelectedIndexChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(30, 34);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(75, 13);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Tipo Incidente";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // monthFechaFinalIncidente
             // 
@@ -160,25 +180,6 @@
             this.label5.Size = new System.Drawing.Size(67, 13);
             this.label5.TabIndex = 0;
             this.label5.Text = "Fecha Inicial";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(30, 34);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 13);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Tipo Incidente";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // cbTipoIncidente
-            // 
-            this.cbTipoIncidente.FormattingEnabled = true;
-            this.cbTipoIncidente.Location = new System.Drawing.Point(111, 31);
-            this.cbTipoIncidente.Name = "cbTipoIncidente";
-            this.cbTipoIncidente.Size = new System.Drawing.Size(121, 21);
-            this.cbTipoIncidente.TabIndex = 5;
-            this.cbTipoIncidente.SelectedIndexChanged += new System.EventHandler(this.cbTipoIncidente_SelectedIndexChanged);
             // 
             // GeneradorDeInformes
             // 
