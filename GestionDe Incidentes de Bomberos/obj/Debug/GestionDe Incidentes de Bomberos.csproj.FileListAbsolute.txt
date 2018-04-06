@@ -11,3 +11,5 @@ C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bom
 C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\obj\Debug\GestionDe Incidentes de Bomberos.csproj.GenerateResource.Cache
 C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\obj\Debug\GestionDe Incidentes de Bomberos.exe
 C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\obj\Debug\GestionDe Incidentes de Bomberos.pdb
+C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\bin\Debug\MySql.Data.dll
+C:\Users\josue\documents\visual studio 2015\Projects\GestionDe Incidentes de Bomberos\GestionDe Incidentes de Bomberos\bin\Debug\MySql.Data.xml

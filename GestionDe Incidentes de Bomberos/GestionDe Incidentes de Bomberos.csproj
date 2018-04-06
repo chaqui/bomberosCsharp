@@ -37,8 +37,15 @@
       <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MySql.Data, Version=6.9.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -62,6 +69,7 @@
     <Compile Include="informes\ElementoMaternidad.cs" />
     <Compile Include="modelo\Bombero.cs" />
     <Compile Include="modelo\BomberoReporte.cs" />
+    <Compile Include="modelo\ConexionABD.cs" />
     <Compile Include="modelo\CRUD.cs" />
     <Compile Include="modelo\Persona.cs" />
     <Compile Include="modelo\Solicitante.cs" />

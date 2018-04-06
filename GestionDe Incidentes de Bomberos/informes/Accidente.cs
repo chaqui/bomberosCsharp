@@ -17,23 +17,6 @@ namespace GestionDe_Incidentes_de_Bomberos.informes
     {
         public void crearInforme(int Tipo, DateTime fechaInicio, DateTime fechaFinal)
         {
-            List<ElementoMaternidad> elementoMaternidad = new List<ElementoMaternidad>();
-            for (int i = 0; i < 10; i++)
-            {
-                ElementoMaternidad elemento = new ElementoMaternidad();
-                elemento.fecha = "01/01/18";
-                elemento.hora = "15:40";
-                elemento.lugar = "San Pedro Sac. San Marcos ";
-                elemento.cantidad = "1";
-                elemento.atencionDeParto = "X";
-                elemento.edad = "19";
-                elemento.aborto = "";
-                elemento.hospitalDeTraslado = "Hospital de San Marcos";
-                elemento.fallecido = "";
-                elemento.vivo = "x";
-               
-                elementoMaternidad.Add(elemento);
-            }
             Bombero director = new Bombero();
             director.nombre = "Rene Anselmo";
             director.apellido = "Perez Perez";
@@ -44,7 +27,11 @@ namespace GestionDe_Incidentes_de_Bomberos.informes
             string path = Directory.GetCurrentDirectory();
             string ubicacion = path + "/prueba.pdf";
 
-            crearPDFMaternidad("Maternidad", fechaInicio, fechaFinal, elementoMaternidad, director,secretario, ubicacion);
+            ElementoInforme elementoInforme = new ElementoInforme();
+            List<ElementoInforme> elementosInforme = elementoInforme.seleccionarElementos(10);
+
+
+            crearPDF("Accidentes de Transito", fechaInicio, fechaFinal, elementosInforme, director,secretario, ubicacion);
             Process.Start(ubicacion);
         }
 

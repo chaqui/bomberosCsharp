@@ -17,7 +17,7 @@ namespace GestionDe_Incidentes_de_Bomberos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new GeneradorDeInformes());
         }
     }
 }
